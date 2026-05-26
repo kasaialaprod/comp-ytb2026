@@ -1,30 +1,24 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import './App.css'
 
 export default function App() {
-  const [isDark, setIsDark] = useState<boolean>(false)
+  const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    document.documentElement.setAttribute(
-      'data-theme',
-      prefersDark ? 'dark' : 'light',
-    )
     setIsDark(prefersDark)
+    document.documentElement.classList.toggle('dark', prefersDark)
   }, [])
 
   const toggleTheme = () => {
     const nextIsDark = !isDark
     setIsDark(nextIsDark)
-    document.documentElement.setAttribute(
-      'data-theme',
-      nextIsDark ? 'dark' : 'light',
-    )
+    document.documentElement.classList.toggle('dark', nextIsDark)
   }
-
   return (
-    <div className="min-h-screen overflow-x-hidden bg-cream text-ink dark:bg-plum dark:text-paper">
+      <div className="min-h-screen overflow-x-hidden" style={{ background: 'var(--bg)', color: 'var(--text)' }}>
       <Header onToggleTheme={toggleTheme} isDark={isDark} />
       <main>
         <Hero />

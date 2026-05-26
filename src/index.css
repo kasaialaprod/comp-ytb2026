@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --color-cream: #f7eed6;
@@ -20,12 +21,6 @@ body,
 #root {
   min-height: 100%;
   margin: 0;
-}
-
-body {
-  background: var(--color-cream);
-  color: var(--color-ink);
-  font-family: var(--font-body);
 }
 
 * {

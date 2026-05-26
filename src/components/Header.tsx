@@ -8,7 +8,7 @@ export default function Header({ onToggleTheme, isDark }: HeaderProps) {
     <header className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-10 md:py-7">
       <div className="flex items-center gap-3">
         <img
-          src="/recul-logo.jpg"
+          src="src/assets/recul-logo.jpg"
           alt="Logo RECUL"
           className="h-14 w-14 rounded-full border border-black/10 object-cover dark:border-white/10"
         />
