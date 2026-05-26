@@ -71,4 +71,3 @@ export default defineConfig([
   },
 ])
 ```
-# comp-ytb2026

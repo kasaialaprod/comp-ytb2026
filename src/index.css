@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f7eed6;
+  --color-paper: #fff8eb;
+  --color-ink: #24150f;
+  --color-coral: #f26128;
+  --color-hotpink: #f552d0;
+  --color-lemon: #ffe024;
+  --color-cocoa: #7a4a29;
+  --color-plum: #190f17;
+
+  --font-display: "Archivo Black", sans-serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
