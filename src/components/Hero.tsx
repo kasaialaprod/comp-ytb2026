@@ -42,9 +42,7 @@ export default function Hero() {
           <div className="grid-dots relative overflow-hidden rounded-[1.7rem] p-6 md:p-8">
             <div className="absolute -left-4 top-6 h-20 w-20 rounded-full bg-lemon/85 blur-xl" />
 
-            <img
-              src="/logo.jpg"
-              alt="Visuel RECUL"
+            <div
               className="relative z-10 mx-auto aspect-square w-full max-w-md rounded-full object-cover"
             />
 
