@@ -3,14 +3,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-cream: #f7eed6;
-  --color-paper: #fff8eb;
-  --color-ink: #24150f;
+  --color-cream: #efe3c7;
+  --color-paper: #f6ecd8;
+  --color-ink: #1f1714;
   --color-coral: #f26128;
-  --color-hotpink: #f552d0;
-  --color-lemon: #ffe024;
-  --color-cocoa: #7a4a29;
-  --color-plum: #190f17;
+  --color-hotpink: #ff4fc6;
+  --color-lemon: #f2c94c;
+  --color-cocoa: #6e4734;
+  --color-plum: #21131a;
+  --color-charcoal: #151515;
 
   --font-display: "Archivo Black", sans-serif;
   --font-body: "Manrope", sans-serif;

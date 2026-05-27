@@ -8,17 +8,17 @@ export default function Hero() {
 
         <h1 className="max-w-4xl font-display text-5xl leading-[0.92] text-coral uppercase sm:text-6xl lg:text-8xl">
           Le média qui parle de sexe{' '}
-          <span className="stroke-title">sans détour</span>
+          <span className="stroke-title text-amber-900 dark:text-fuchsia-500">sans détour</span>
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-ink/80 dark:text-paper/80">
-          RECUL assume les conversations qu’on évite souvent : désir, plaisir,
+          ReCUL assume les conversations qu’on évite souvent : désir, plaisir,
           relations, normes, corps et contradictions.
         </p>
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@reCUUUL/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex min-h-12 items-center justify-center rounded-full bg-coral px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90"
@@ -58,21 +58,21 @@ export default function Hero() {
           </div>
 
           <div className="mt-5 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-3xl bg-coral px-4 py-4 text-paper">
+            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
               <p className="text-xs uppercase tracking-[0.25em] text-paper/70">
                 ton
               </p>
               <p className="mt-2 text-lg font-extrabold">Audacieux</p>
             </div>
 
-            <div className="rounded-3xl bg-ink px-4 py-4 text-paper dark:bg-paper dark:text-ink">
+            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
               <p className="text-xs uppercase tracking-[0.25em] opacity-60">
                 style
               </p>
               <p className="mt-2 text-lg font-extrabold">Magazine pop</p>
             </div>
 
-            <div className="rounded-3xl bg-lemon px-4 py-4 text-ink">
+            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-lemon px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-ink transition hover:opacity-90">
               <p className="text-xs uppercase tracking-[0.25em] opacity-60">
                 mission
               </p>

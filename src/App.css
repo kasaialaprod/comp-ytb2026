@@ -1,29 +1,29 @@
 :root {
---bg: #f7eed6;
---text: #24150f;
+  --bg: #efe3c7;
+  --text: #1f1714;
 
---accent: #f26128;
---accent-bg: #ffe9df;
---accent-border: #f7a17f;
+  --accent: #e88d73;
+  --accent-bg: #f6d7cb;
+  --accent-border: #d97757;
 
---border: #d8c7aa;
---text-h: #24150f;
---social-bg: #fff8eb;
---shadow: 0 8px 24px rgba(36, 21, 15, 0.12);
+  --border: #cfbda3;
+  --text-h: #1f1714;
+  --social-bg: #f8efdf;
+  --shadow: 0 10px 30px rgba(31, 23, 20, 0.14);
 }
 
 .dark {
---bg: #190f17;
---text: #fff8eb;
+  --bg: #1a1116;
+  --text: #f6ecd8;
 
---accent: #ffe024;
---accent-bg: #3a2430;
---accent-border: #f552d0;
+  --accent: #ff4fc6;
+  --accent-bg: #35202b;
+  --accent-border: #f2c94c;
 
---border: #4a3542;
---text-h: #fff8eb;
---social-bg: #2a1822;
---shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --border: #4a353d;
+  --text-h: #f6ecd8;
+  --social-bg: #26171e;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .counter {
@@ -209,4 +209,12 @@ width: 100%;
   right: 0;
   border-right-color: var(--border);
 }
+}
+
+.grid-dots {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 79, 198, 0.18), transparent 20%),
+    radial-gradient(circle at 80% 30%, rgba(242, 201, 76, 0.22), transparent 18%),
+    linear-gradient(180deg, #f3e7cf 0%, #efe1c5 100%);
+  box-shadow: 0 18px 40px rgba(31, 23, 20, 0.12);
 }
