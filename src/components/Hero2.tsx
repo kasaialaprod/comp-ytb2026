@@ -1,4 +1,5 @@
 import group from '../assets/group.jpg'
+import background from '../assets/recul-banner.jpg'
 
 const members = [
    {
@@ -62,13 +63,13 @@ const faqs = [
     user: "@mecquifaitgenre",
     question: "Est-ce qu’on peut aimer quelqu’un et ne plus avoir envie de coucher avec ?",
     answer:
-      "Oui, complètement. Le désir varie, bouge, disparaît parfois, puis revient. Ça ne veut pas automatiquement dire que l’amour a disparu, mais ça mérite souvent une vraie discussion.",
+      "Non change de meuf bandito. Oui, complètement. Le désir varie, bouge, disparaît parfois, puis revient. Ça ne veut pas automatiquement dire que l’amour a disparu, mais ça mérite souvent une vraie discussion.",
   },
   {
     user: "@anonyme_du_94",
     question: "Pourquoi les gens mentent autant sur leur body count ?",
     answer:
-      "Parce que le regard des autres pèse encore beaucoup trop dans les sujets liés au sexe. Certains gonflent, d’autres minimisent, juste pour coller à une image attendue.",
+      "T'aimerais que tout le monde ait mangé dans ton plat avant toi ?",
   },
   {
     user: "@silencegenant",
@@ -86,8 +87,9 @@ const faqs = [
 
 export default function Hero2() {
   return (
-    <section className="mx-auto max-w-7xl px-5 pb-16 pt-4 md:px-10 md:pb-24 md:pt-10">
+    <section className="mx-auto max-w-7xl px-5 pb-16 pt-4 mt-16 md:px-10 md:pb-24 md:pt-10">
       
+      {/* Team Section */}
       <div id='la-team' className="mb-8 max-w-2xl">
         <div className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
           Notre team
@@ -108,7 +110,8 @@ export default function Hero2() {
           <img
             src={group}
             alt="Les membres de la chaîne ReCUL"
-            className="h-[380px] w-full object-cover md:h-[560px]"
+            className="h-[380px] w-full object-contain md:h-[560px]"
+            style={{ backgroundImage: `url(${background})`}}
           />
         </div>
 
@@ -134,7 +137,8 @@ export default function Hero2() {
         </div>
       </div>
       
-      <div className="max-w-3xl mt-8">
+      {/* FAQ Section */}
+      <div className="max-w-3xl mt-20">
         <div id='faq' className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
           FAQ
         </div>

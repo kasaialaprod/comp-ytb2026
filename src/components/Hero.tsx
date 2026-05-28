@@ -96,22 +96,25 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="mt-5 grid gap-3 sm:grid-cols-3">
-            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
-              
-              <p className="mt-2 text-lg font-extrabold">Informer</p>
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            <div className="flex min-h-[88px] w-full items-center justify-center rounded-full bg-hotpink px-8 py-5 text-center text-paper transition hover:opacity-90 lg:min-h-[104px] lg:px-12 lg:py-6">
+              <p className="text-base font-extrabold uppercase tracking-[0.16em] lg:text-lg">
+                Informer
+              </p>
             </div>
 
-            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
-              
-              <p className="mt-2 text-lg font-extrabold">Rigoler</p>
+            <div className="flex min-h-[88px] w-full items-center justify-center rounded-full bg-hotpink px-8 py-5 text-center text-paper transition hover:opacity-90 lg:min-h-[104px] lg:px-12 lg:py-6">
+              <p className="text-base font-extrabold uppercase tracking-[0.16em] lg:text-lg">
+                Rigoler
+              </p>
             </div>
 
-            <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-lemon px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-ink transition hover:opacity-90">
-              
-              <p className="mt-2 text-lg font-extrabold">SEX'PRIMER</p>
+            <div className="flex min-h-[88px] w-full items-center justify-center rounded-full bg-lemon px-8 py-5 text-center text-ink transition hover:opacity-90 lg:min-h-[104px] lg:px-12 lg:py-6">
+              <p className="text-base font-extrabold uppercase tracking-[0.16em] lg:text-lg">
+                Sex’primer
+              </p>
             </div>
-        </div>
+          </div>
       </div>
     </section>
   )
