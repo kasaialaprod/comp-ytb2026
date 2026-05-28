@@ -1,52 +1,52 @@
 import group from '../assets/group.jpg'
 
 const members = [
+   {
+    name: "Léonce",
+    handle: "@cameleonce",
+    role: "Big Boss de la chaine, présentateur de la chaine",
+    position: "right-4 bottom-6 md:right-10 md:bottom-10",
+  },
   {
     name: "Manon",
     handle: "@ma.oui_non",
-    role: "Questions gênantes & direction édito",
+    role: "Tête pensante, rédactrice & scénariste",
     position: "left-4 top-4 md:left-8 md:top-8",
   },
   {
     name: "Rayane",
     handle: "@el_rayou.xd",
-    role: "Interview, malaise, relances",
+    role: "Manager, buisness développement & community management",
     position: "right-4 top-10 md:right-10 md:top-12",
   },
   {
     name: "Sarah",
     handle: "@saracroche",
-    role: "Réseaux, montage & chaos doux",
+    role: "Éditrice, rédactrice en chef",
     position: "left-6 bottom-20 md:left-12 md:bottom-16",
-  },
-  {
-    name: "Léonce",
-    handle: "@cameleonce",
-    role: "Prod, cam, énergie bizarre",
-    position: "right-4 bottom-6 md:right-10 md:bottom-10",
   },
   {
     name: "Alex",
     handle: "@les_meuf_ajt_moi",
-    role: "Questions gênantes & direction édito",
+    role: "Caméraman, monteur & motion designer",
     position: "left-4 top-4 md:left-8 md:top-8",
   },
   {
     name: "Maxence",
     handle: "@maximus_prime69",
-    role: "Questions gênantes & direction édito",
+    role: "Tête pensante, rédactrice & scénariste",
     position: "right-4 top-10 md:right-10 md:top-12",
   },
   {
     name: "Yoan",
     handle: "@20cm_enbas",
-    role: "Questions gênantes & direction édito",
+    role: "Directeur artistique, motion designer & graphiste",
     position: "left-6 bottom-20 md:left-12 md:bottom-16",
   },
   {
     name: "Israël",
     handle: "@smoke_zaza420",
-    role: "Développeur solitaire mdr jsuis pas dans ça",
+    role: "Développeur solitaire mdr jsuis pas dans ça moi",
     position: "right-4 bottom-6 md:right-10 md:bottom-10",
   }
 ]
@@ -88,7 +88,7 @@ export default function Hero2() {
   return (
     <section className="mx-auto max-w-7xl px-5 pb-16 pt-4 md:px-10 md:pb-24 md:pt-10">
       
-      <div className="mb-8 max-w-2xl">
+      <div id='la-team' className="mb-8 max-w-2xl">
         <div className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
           Notre team
         </div>
@@ -135,7 +135,7 @@ export default function Hero2() {
       </div>
       
       <div className="max-w-3xl mt-8">
-        <div className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
+        <div id='faq' className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
           FAQ
         </div>
 

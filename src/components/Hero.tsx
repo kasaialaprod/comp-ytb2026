@@ -43,10 +43,17 @@ export default function Hero() {
           </a>
 
           <a
-            href="#newsletter"
+            href="#la-team"
             className="inline-flex min-h-12 items-center justify-center rounded-full border border-current/15 bg-white/55 px-7 py-4 text-sm font-bold uppercase tracking-[0.18em] backdrop-blur dark:bg-white/5"
           >
-            Recevoir les actus
+            La team
+          </a>
+
+          <a
+            href="#faq"
+            className="inline-flex min-h-12 items-center justify-center rounded-full border border-current/15 bg-white/55 px-7 py-4 text-sm font-bold uppercase tracking-[0.18em] backdrop-blur dark:bg-white/5"
+          >
+            FAQ
           </a>
         </div>
       </div>
