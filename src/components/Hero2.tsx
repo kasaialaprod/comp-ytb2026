@@ -1,9 +1,62 @@
+import group from '../assets/group.jpg'
+
+const members = [
+  {
+    name: "Manon",
+    handle: "@ma.oui_non",
+    role: "Questions gênantes & direction édito",
+    position: "left-4 top-4 md:left-8 md:top-8",
+  },
+  {
+    name: "Rayane",
+    handle: "@el_rayou.xd",
+    role: "Interview, malaise, relances",
+    position: "right-4 top-10 md:right-10 md:top-12",
+  },
+  {
+    name: "Sarah",
+    handle: "@saracroche",
+    role: "Réseaux, montage & chaos doux",
+    position: "left-6 bottom-20 md:left-12 md:bottom-16",
+  },
+  {
+    name: "Léonce",
+    handle: "@cameleonce",
+    role: "Prod, cam, énergie bizarre",
+    position: "right-4 bottom-6 md:right-10 md:bottom-10",
+  },
+  {
+    name: "Alex",
+    handle: "@les_meuf_ajt_moi",
+    role: "Questions gênantes & direction édito",
+    position: "left-4 top-4 md:left-8 md:top-8",
+  },
+  {
+    name: "Maxence",
+    handle: "@maximus_prime69",
+    role: "Questions gênantes & direction édito",
+    position: "right-4 top-10 md:right-10 md:top-12",
+  },
+  {
+    name: "Yoan",
+    handle: "@20cm_enbas",
+    role: "Questions gênantes & direction édito",
+    position: "left-6 bottom-20 md:left-12 md:bottom-16",
+  },
+  {
+    name: "Israël",
+    handle: "@smoke_zaza420",
+    role: "Développeur solitaire mdr jsuis pas dans ça",
+    position: "right-4 bottom-6 md:right-10 md:bottom-10",
+  }
+]
+
 const faqs = [
   {
     user: "@latextedejade",
     question: "C’est grave de ne jamais avoir eu de vrai rapport à 23 ans ?",
     answer:
-      "Non. Il n’y a pas d’âge normal, pas de chrono universel, et encore moins de parcours obligatoire. Le plus important, c’est ce que toi tu ressens, pas ce que les autres prétendent avoir déjà vécu.",
+      "Au bout d'un moment mon reuf, sincèrement, faudra s'y mettre hein. Tu dois avoir des gallons de sperme c'est chaud. Plus sérieusement, il n’y a pas d’âge pour ça, et ce n’est pas une course. Chacun son rythme, et il y a plein de façons d’explorer sa sexualité sans forcément passer par un rapport traditionnel.",
   },
   {
     user: "@mecquifaitgenre",
@@ -34,19 +87,61 @@ const faqs = [
 export default function Hero2() {
   return (
     <section className="mx-auto max-w-7xl px-5 pb-16 pt-4 md:px-10 md:pb-24 md:pt-10">
-      <div className="max-w-3xl">
+      
+      <div className="mb-8 max-w-2xl">
         <div className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
-          FAQ taboue
+          Notre team
+        </div>
+
+        <h2 className="mt-4 font-display text-3xl uppercase leading-none text-ink dark:text-paper md:text-5xl">
+          Les têtes derrière ReCUL
+        </h2>
+
+        <p className="mt-4 text-base leading-7 text-ink/75 dark:text-paper/75">
+          Ceux qui posent les questions trop directes, gardent les silences gênants
+          au montage et transforment les tabous en vraies discussions.
+        </p>
+      </div>
+
+      <div className="mx-auto w-full max-w-[80vw]">
+        <div className="overflow-hidden rounded-[2rem] border border-black/10 bg-white/50 shadow-xl dark:border-white/10 dark:bg-white/5">
+          <img
+            src={group}
+            alt="Les membres de la chaîne ReCUL"
+            className="h-[380px] w-full object-cover md:h-[560px]"
+          />
+        </div>
+
+        <div className="-mt-6 grid gap-4 px-2 md:grid-cols-2 lg:grid-cols-4">
+          {members.map((member) => (
+            <div
+              key={member.handle}
+              className="rounded-[1.5rem] border border-black/10 bg-paper p-4 shadow-lg backdrop-blur-sm transition hover:-translate-y-1 hover:shadow-xl dark:border-white/10 dark:bg-[#151515]"
+            >
+              <p className="text-sm font-extrabold uppercase tracking-[0.16em] text-ink dark:text-paper">
+                {member.name}
+              </p>
+
+              <p className="mt-2 inline-flex rounded-full bg-coral px-3 py-1 text-[11px] font-bold text-paper">
+                {member.handle}
+              </p>
+
+              <p className="mt-3 text-sm leading-6 text-ink/75 dark:text-paper/75">
+                {member.role}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <div className="max-w-3xl mt-8">
+        <div className="inline-flex rounded-full bg-hotpink px-3 py-1 text-[10px] font-extrabold uppercase tracking-[0.22em] text-paper">
+          FAQ
         </div>
 
         <h2 className="mt-4 font-display text-3xl uppercase leading-none text-ink dark:text-paper md:text-5xl">
           Les questions qu’on n’ose pas poser
         </h2>
-
-        <p className="mt-4 max-w-2xl text-base leading-7 text-ink/75 dark:text-paper/75">
-          Des faux comptes, de vraies gênes, et toutes les questions qu’on garde
-          souvent pour soi.
-        </p>
       </div>
 
       <div className="mt-10 grid gap-5 md:grid-cols-2">

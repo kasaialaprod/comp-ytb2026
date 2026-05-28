@@ -1,5 +1,6 @@
 import logo from '../assets/recul-logo.jpg'
 
+
 type HeaderProps = {
   onToggleTheme: () => void
   isDark: boolean
@@ -7,7 +8,7 @@ type HeaderProps = {
 
 export default function Header({ onToggleTheme, isDark }: HeaderProps) {
   return (
-    <header className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-10 md:py-7">
+    <header className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-10 md:py-7 bg-url{}">
       <div className="flex items-center gap-3">
         <img
           src={logo}

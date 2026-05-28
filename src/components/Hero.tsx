@@ -1,4 +1,5 @@
-import logo from '../assets/recul-banner.jpg'
+import background from '../assets/recul-bbg.jpg'
+
 
 export default function Hero() {
   return (
@@ -52,7 +53,7 @@ export default function Hero() {
 
       <div
         className="relative min-h-[90vh] rounded-[2rem] border border-black/10 bg-cover bg-center bg-no-repeat md:p-6"
-        style={{ backgroundImage: `url(${logo})` }}
+        style={{ backgroundImage: `url(${background})`}}
       >
         <div className="absolute -right-4 top-0 hidden h-24 w-24 rotate-12 rounded-[2rem] bg-hotpink/25 blur-2xl md:block" />
 
@@ -90,24 +91,18 @@ export default function Hero() {
 
           <div className="mt-5 grid gap-3 sm:grid-cols-3">
             <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
-              <p className="text-xs uppercase tracking-[0.25em] text-paper/70">
-                ton
-              </p>
-              <p className="mt-2 text-lg font-extrabold">Audacieux</p>
+              
+              <p className="mt-2 text-lg font-extrabold">Informer</p>
             </div>
 
             <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-hotpink px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-paper transition hover:opacity-90">
-              <p className="text-xs uppercase tracking-[0.25em] opacity-60">
-                style
-              </p>
-              <p className="mt-2 text-lg font-extrabold">Magazine pop</p>
+              
+              <p className="mt-2 text-lg font-extrabold">Rigoler</p>
             </div>
 
             <div className="inline-flex min-h-12 items-center justify-center rounded-full bg-lemon px-7 py-4 text-sm font-extrabold uppercase tracking-[0.2em] text-ink transition hover:opacity-90">
-              <p className="text-xs uppercase tracking-[0.25em] opacity-60">
-                mission
-              </p>
-              <p className="mt-2 text-lg font-extrabold">Libérer la parole</p>
+              
+              <p className="mt-2 text-lg font-extrabold">SEX'PRIMER</p>
             </div>
         </div>
       </div>
