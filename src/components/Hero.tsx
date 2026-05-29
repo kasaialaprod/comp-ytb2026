@@ -83,14 +83,6 @@ export default function Hero() {
               </div>
             </div>
 
-            <a
-              href="https://youtu.be/UpleTeyFPJ0?si=kCSZCZJOZ3qd1u_A"
-              className="absolute right-4 top-4 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-lemon text-2xl text-ink transition hover:scale-110 md:right-5 md:top-5 md:h-16 md:w-16 md:text-4xl"
-              aria-label="Aller à la vidéo"
-            >
-              ➜
-            </a>
-
             <div className="absolute bottom-4 left-3 rotate-[-12deg] font-display text-4xl text-hotpink md:bottom-5 md:text-7xl">
               ✦
             </div>

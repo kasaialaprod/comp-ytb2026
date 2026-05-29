@@ -1,4 +1,4 @@
-import group from '../assets/group.jpg'
+import group from '../assets/group.png'
 import background from '../assets/recul-banner.jpg'
 
 const members = [
@@ -57,19 +57,19 @@ const faqs = [
     user: "@latextedejade",
     question: "C’est grave de ne jamais avoir eu de vrai rapport à 23 ans ?",
     answer:
-      "Au bout d'un moment mon reuf, sincèrement, faudra s'y mettre hein. Tu dois avoir des gallons de sperme c'est chaud. Plus sérieusement, il n’y a pas d’âge pour ça, et ce n’est pas une course. Chacun son rythme, et il y a plein de façons d’explorer sa sexualité sans forcément passer par un rapport traditionnel.",
+      "Au bout d'un moment mon reuf, sincèrement, faudra s'y mettre hein. Tu dois avoir des gallons de mesper dans les yeuk c'est chaud, sah. Belek t'es sheedan.",
   },
   {
     user: "@mecquifaitgenre",
     question: "Est-ce qu’on peut aimer quelqu’un et ne plus avoir envie de coucher avec ?",
     answer:
-      "Non change de meuf bandito. Oui, complètement. Le désir varie, bouge, disparaît parfois, puis revient. Ça ne veut pas automatiquement dire que l’amour a disparu, mais ça mérite souvent une vraie discussion.",
+      "Oui, complètement. Le désir varie, bouge, disparaît parfois, puis revient. Ça ne veut pas automatiquement dire que l’amour a disparu, mais ça mérite souvent une vraie discussion.",
   },
   {
     user: "@anonyme_du_94",
     question: "Pourquoi les gens mentent autant sur leur body count ?",
     answer:
-      "T'aimerais que tout le monde ait mangé dans ton plat avant toi ?",
+      "Plus t'as de l'xp plus tu montes en grade. Belek on va t'appler Captain Paf.",
   },
   {
     user: "@silencegenant",
