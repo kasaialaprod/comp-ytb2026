@@ -1,13 +1,13 @@
 const shorts = [
   {
     title: "Micro-trottoir gênant #1",
-    embedUrl: "https://www.youtube.com/embed/UpleTeyFPJ0",
-    href: "https://www.youtube.com/shorts/UpleTeyFPJ0",
+    embedUrl: "https://www.youtube.com/embed/sMdiLV7JKvk",
+    href: "https://www.youtube.com/shorts/sMdiLV7JKvk",
   },
   {
     title: "Question taboue #2",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_2",
-    href: "https://www.youtube.com/shorts/VIDEO_ID_2",
+    embedUrl: "https://www.youtube.com/embed/hJkBOVXSKrE",
+    href: "https://www.youtube.com/shorts/hJkBOVXSKrE",
   },
   {
     title: "Réponse trop honnête #3",

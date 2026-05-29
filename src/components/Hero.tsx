@@ -68,11 +68,11 @@ export default function Hero() {
             <div className="absolute -left-4 top-6 h-20 w-20 rounded-full bg-lemon/85 blur-xl" />
 
             <div className="relative z-10 w-full max-w-4xl">
-              <div className="overflow-hidden rounded-[1.5rem] border border-black/10 bg-black shadow-2xl dark:border-white/10">
+              <div className="w-full overflow-hidden rounded-[1.5rem]">
                 <div className="aspect-video w-full">
                   <iframe
                     className="h-full w-full"
-                    src="https://www.youtube.com/embed/UpleTeyFPJ0?si=75nZH1RxQECRL4Ml"
+                    src="https://www.youtube.com/embed/GMNSsGDrXck?si=Jkj1vT3NLc6kEC2b"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
